@@ -57,10 +57,10 @@ Analyzed support ticket categories, resolution time, customer satisfaction, stat
 ![City Performance](<Screenshot 2026-11-15 174956.png>)
 
 ### 3. Battery Range Comparison
-![Battery Range](<Screenshot 2026-11-15 175008.png>)
+![Battery Range](<Screenshot 2026-11-15 175015.png>)
 
 ### 4. Fleet Partner Energy Contribution
-![Partner Analysis](<Screenshot 2026-11-15 175015.png>)
+![Partner Analysis](<Screenshot 2026-11-15 175008.png>)
 
 ## Business Recommendations
 1. Improve battery availability during peak demand hours.
