@@ -3,8 +3,6 @@
 ## Project Overview
 This project analyzes the VoltRelay Energy battery-swapping network to understand business performance, identify operational challenges, and provide data-driven recommendations.
 
-The analysis focuses on swap performance, station efficiency, battery health, rider behavior, fleet partner economics, pricing, and customer support.
-
 ## Problem Statement
 To analyze battery-swapping operations across multiple cities and identify opportunities to improve operational efficiency, customer experience, battery utilization, and business performance.
 
@@ -17,14 +15,7 @@ To analyze battery-swapping operations across multiple cities and identify oppor
 - Google Colab
 
 ## Dataset Description
-The project uses multiple datasets related to:
-- Swap events
-- Batteries
-- Stations
-- Riders
-- Fleet partners
-- City and station operating conditions
-- Customer support tickets
+The project uses datasets related to swap events, batteries, stations, riders, fleet partners, city conditions, and customer support tickets.
 
 ## Analysis Performed
 
@@ -38,13 +29,13 @@ Compared two-wheeler and three-wheeler performance across six cities and identif
 Compared battery generations, charging time, station performance, and operational challenges.
 
 ### Q4. Battery Health Analysis
-Examined battery State of Health (SOH), retirement records, and average driving range across battery brands and lots.
+Examined battery State of Health (SOH), retirement records, and average driving range.
 
 ### Q5. Pricing & Fleet Partner Analysis
 Analyzed peak/off-peak pricing, partner discounts, revenue, and average energy contribution per swap.
 
 ### Q6. Rider Behavior Analysis
-Studied rider inactivity, first swap experience, and the relationship between failed attempts and low usage.
+Studied rider inactivity, first swap experience, and low usage patterns.
 
 ### Q7. Customer Support & Budget Recommendations
 Analyzed support ticket categories, resolution time, customer satisfaction, station costs, battery inventory, and partner economics.
@@ -57,6 +48,20 @@ Analyzed support ticket categories, resolution time, customer satisfaction, stat
 - ZipDrop had the highest swap volume but the lowest average energy contribution per swap among the analyzed partners.
 - Long queue-related support tickets had the lowest average customer satisfaction among the listed official ticket categories.
 
+## Visualizations
+
+### 1. Monthly Business Performance
+![Monthly Business Performance](<Screenshot 2026-11-15 174943.png>)
+
+### 2. City-wise Non-Completion Rate
+![City Performance](<Screenshot 2026-11-15 174956.png>)
+
+### 3. Battery Range Comparison
+![Battery Range](<Screenshot 2026-11-15 175008.png>)
+
+### 4. Fleet Partner Energy Contribution
+![Partner Analysis](<Screenshot 2026-11-15 175015.png>)
+
 ## Business Recommendations
 1. Improve battery availability during peak demand hours.
 2. Monitor battery health and retirement patterns.
@@ -64,13 +69,6 @@ Analyzed support ticket categories, resolution time, customer satisfaction, stat
 4. Test pricing changes through controlled pilot programs.
 5. Improve queue management and customer support response times.
 6. Monitor rider inactivity and improve the first-swap experience.
-
-## Visualizations
-The project includes visualizations for:
-- Monthly swap volume and non-completion trends
-- City-wise vehicle non-completion rates
-- Battery range comparison
-- Fleet partner energy contribution
 
 ## Project Outcome
 This project demonstrates how data analytics can help identify operational inefficiencies, understand customer behavior, evaluate partner performance, and support better business decisions.
